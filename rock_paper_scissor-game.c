@@ -22,9 +22,9 @@ int main(void) {
       if (inp == 1)printf("You chose rock.\n");
       if (inp == 2)printf("You chose paper.\n");
       if (inp == 3)printf("You chose scissor.\n");
-      if (randnum == 1)printf("Computer chose rock.\n");
-      if (randnum == 2)printf("Computer chose paper.\n");
-      if (randnum == 3)printf("Computer chose scissor.\n");
+      if (randnum == 1)printf("Computer choses rock.\n");
+      if (randnum == 2)printf("Computer choses paper.\n");
+      if (randnum == 3)printf("Computer choses scissor.\n");
       if (inp == randnum){
           tie++;
           printf("It's a tie!\n\n");
